@@ -65,11 +65,11 @@ class WebconConfig(object):
       ]
       cxx.cflags += [
         '-pipe',
-        '-fno-strict-aliasing',
+        # '-fno-strict-aliasing',
         '-Wall',
         # '-Werror',
-        '-Wno-unused',
-        '-Wno-switch',
+        # '-Wno-unused',
+        # '-Wno-switch',
         '-msse',
         '-m32',
       ]
